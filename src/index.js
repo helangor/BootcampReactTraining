@@ -5,11 +5,13 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import OmaKomponentti from './OmaKomponentti';
 import TestiKomponentti from './TestiKomponentti';
+import TodoKomponentti from './ToDoKomponentti';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
     <OmaKomponentti />
+    <TodoKomponentti />
     <TestiKomponentti />
   </React.StrictMode>,
   document.getElementById('root')
